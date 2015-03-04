@@ -847,12 +847,22 @@ img.wp-smiley,
  * ----------------------------------------------------------------------------
  */
 
+/*test menu*/
+.test_menu_class .menu{
+	overflow: hidden;
+}
+
+.test_menu_class .menu li{
+	float:left;
+	padding:0 15px;
+}
+
 .main-navigation {
 	clear: both;
 	margin: 0 auto;
 	max-width: 1080px;
 	min-height: 40px;
-	padding:30px 0;
+	padding:22px 0;
 	position: relative;
 }
 
@@ -944,7 +954,6 @@ ul.nav-menu .focus > ul,
 
 /* Navbar */
 .navbar {
-	background-color: #f7f5e7;
 	margin: 0 auto;
 	max-width: 1600px;
 	width: 100%;
@@ -1893,11 +1902,11 @@ footer.entry-meta {
 }
 
 .navigation a {
-	color: #bc360a;
+	color: #555;
 }
 
 .navigation a:hover {
-	color: #ea9629;
+	color: #3b86b0;
 	text-decoration: none;
 }
 
@@ -2553,7 +2562,6 @@ footer.entry-meta {
  */
 
 .site-footer {
-	background-color: #e8e5ce;
 	color: #686758;
 	font-size: 14px;
 	text-align: center;
@@ -2591,6 +2599,13 @@ footer.entry-meta {
 	float: left;
 	margin-right: 20px;
 	width: 245px;
+}
+
+.footer-inner{
+	margin-bottom: 10px;
+	padding:20px 0;
+	border:1px dotted #000;
+	border-width:1px 0;
 }
 
 .sidebar .site-footer .widget {

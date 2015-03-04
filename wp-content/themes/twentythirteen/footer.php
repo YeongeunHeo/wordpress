@@ -12,7 +12,14 @@
 
 		</div><!-- #main -->
 		<footer id="colophon" class="site-footer" role="contentinfo">
-			<?php get_sidebar( 'main' ); ?>
+			<div class="footer-inner">
+				<img src="http://wordpress.local:8080/wp-content/uploads/2015/03/footer.gif">
+			</div>
+			<div align="right">
+		        <a href="#"><img src="http://wordpress.local:8080/wp-content/uploads/2015/03/facebook_button.gif"></a>
+		        <a href="#"><img src="http://wordpress.local:8080/wp-content/uploads/2015/03/customer_button.gif"></a>
+		    </div>
+			<?//php get_sidebar( 'main' ); ?>
 
 			<div class="site-info">
 				<?php do_action( 'twentythirteen_credits' ); ?>
