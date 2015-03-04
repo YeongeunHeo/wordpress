@@ -20,9 +20,7 @@
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
-	
-	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.bxslider.js"></script>
+
 	<?php wp_footer(); ?>
 </body>
 </html>

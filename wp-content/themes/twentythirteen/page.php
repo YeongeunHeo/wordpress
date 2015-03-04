@@ -20,19 +20,8 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-					<article class="bxslider">
-						<div>
-							<img src="http://wordpress.local:8080/wp-content/uploads/2015/03/main_slide11-960x590.jpg">
-						</div>
-						<div>
-							<img src="http://wordpress.local:8080/wp-content/uploads/2015/03/main_slide2-960x590.jpg">
-						</div>
-					</article>
 					<header class="entry-header">
-						<div>
-							<!-- 슬라이더 이미지 가져오기 
-							<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>-->
-						</div>
+						<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
 						<div class="entry-thumbnail">
                         <?php the_post_thumbnail(); ?>
 						</div>

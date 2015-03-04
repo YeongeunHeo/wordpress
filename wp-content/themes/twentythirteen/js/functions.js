@@ -100,8 +100,4 @@
 			isRTL: body.is( '.rtl' )
 		} );
 	}
-
-	$('.bxslider').bxSlider({
-		auto:true
-	});
 } )( jQuery );
