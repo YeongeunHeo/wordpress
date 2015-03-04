@@ -599,3 +599,10 @@ function printr2 ($var, $title = NULL, $style = NULL, $title_style = NULL) {
     printr($var, $title,  $style, $title_style);
     exit;
 }
+
+function register_my_menus() {
+    register_nav_menus(
+        array( 'test-menu' => __( 'Test Menu' ) )
+    );
+}
+add_action( 'init', 'register_my_menus' );
